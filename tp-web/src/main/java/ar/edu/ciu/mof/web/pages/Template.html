@@ -1,0 +1,19 @@
+<html xmlns:wicket="http://wicket.apache.org">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--Include CSS-->
+	</head>
+
+	<body style="margin:0;">
+		<div id="header" wicket:id="headerPanel" style="width: 100%; height: 10%; background: red;"></div>
+		<div id="body">
+			<div id="menu" wicket:id="menuPanel" style="width: 10%; height: 80%; background: green; float: left;"></div>
+			<div style="height: 80%; background: gray;">
+				<wicket:child/>
+			</div>
+		</div>
+		<div id="footer" wicket:id="footerPanel" style="width: 100%; height: 10%; background: blue;"></div>
+	</body>
+
+</html>
